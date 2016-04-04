@@ -11,6 +11,13 @@ increment_padded_num() {
   local unpadded_num=$(echo "$padded_num" | sed 's/^0*//')
 
   (( unpadded_num++ ))
+  local unpadded_num_len=$(echo -n "$unpadded_num" | wc -c | sed 's/[[:blank:]]//g')
+
+  if [[ $unpadded_num_len -gt $padded_num_len ]]; then
+    >&2 echo "Error: incremented number is longer than input"
+    return 1
+  fi
+
   printf "$fmt_str" "$unpadded_num"
 
 }
