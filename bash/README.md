@@ -23,3 +23,8 @@ Function template for parsing runtime arguments passed to a script
 
 [show_usage](show_usage.sh)  
 Simple function template for printing a script's usage statement
+
+[sanity](sanity.sh)  
+Little bash routines for improved sanity. 
+* Setting runtime vars (script directory, script name)
+* Safe iteration through a file
