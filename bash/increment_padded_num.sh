@@ -25,11 +25,12 @@ increment_padded_num() {
 ################################################################################
 # Usage example:
 #
-#  $ PAD_NUM=0008
-#  $ echo $PAD_NUM
-#  0008
-#  $ PAD_NUM=$(increment_padded_num $PAD_NUM)
-#  $ echo $PAD_NUM
-#  0009
-
+# Pass function an integer left-padded with zeros,
+# receive an incremented integer padded to the same width
+#
+PAD_NUM=0008
+echo $PAD_NUM
+PAD_NUM=$(increment_padded_num $PAD_NUM)
+echo $PAD_NUM
+#
 ################################################################################
