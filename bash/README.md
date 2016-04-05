@@ -28,6 +28,8 @@ Draw / Re-draw a progress bar in the shell
 Little bash routines for improved sanity. 
 * Setting runtime vars (script directory, script name)
 * Safe iteration through a file
+* Error / Verbose echo functions
+* Standard test functions (file, dir, sym-link)
 
 #### [show_usage](show_usage.sh)  
 Simple function template for printing a script's usage statement
