@@ -19,3 +19,6 @@ Code challenge script for [ugly numbers](http://www.codeeval.com/public_sc/42/)
 
 #### [diff_decimal_octal](diff_decimal_octal.py)
 Script to find natural numbers which have fewer than 2 differing digits in DEC & OCT
+
+#### [base-n-encode](base-n-encode.py)
+Bijective base-n conversion script
