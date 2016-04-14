@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-#readonly WORKDIR=$(cd -P -- "$(dirname -- "$0")" && pwd -P)
-#readonly INFILE="${WORKDIR}/unsorted"
 readonly UNSORTED=( "$@" )
 
 STRS=
@@ -10,7 +8,6 @@ INDEX=
 OUTPUT=
 
 pos=0
-#for i in $(cat "$INFILE"); do
 for i in "${UNSORTED[@]}"; do
   case ${i#-} in
     ''|*[!0-9]*)
