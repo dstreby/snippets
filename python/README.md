@@ -14,11 +14,11 @@
 
 ## Contents:
 
-#### [ugly_nums](ugly_nums.py)
-Code challenge script for [ugly numbers](http://www.codeeval.com/public_sc/42/)
+#### [base-n_encode](base-n_encode.py)
+Bijective base-n conversion script
 
 #### [diff_decimal_octal](diff_decimal_octal.py)
 Script to find natural numbers which have fewer than 2 differing digits in DEC & OCT
 
-#### [base-n-encode](base-n-encode.py)
-Bijective base-n conversion script
+#### [ugly_nums](ugly_nums.py)
+Code challenge script for [ugly numbers](http://www.codeeval.com/public_sc/42/)
