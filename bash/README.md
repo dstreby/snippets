@@ -16,6 +16,11 @@
 #### [increment_padded_num](increment_padded_num.sh)  
 A bash function to increment a zero padded integer
 
+#### [tcpdump-req-resp-imbalance](tcpdump-req-resp-imbalance.sh)
+A quick and dirty script to parse tcpdump pcap files and identify
+potential missing HTTP responses (e.g. will identify a transaction for
+which there are more requests than responses)
+
 #### [jumblesort](jumblesort/jumblesort.sh)
 Solution to [jumble sort challenge](jumblesort/README.md)
 
